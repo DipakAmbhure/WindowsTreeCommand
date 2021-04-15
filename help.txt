@@ -1,0 +1,68 @@
+\nDescription
+\nTree is a recursive directory listing program that produces a depth indented listing of files. Color is supported ala dircolors if the LS_COLORS environment variable is set, output is to a tty, and the -C flag is used. With no arguments, tree lists the files in the current directory. When directory arguments are given, tree lists all the files and/or directories found in the given directories each in turn. Upon completion of listing all files/directories found, tree returns the total number of files and/or directories listed.
+
+\nOptions
+\nTree understands the following command line switches:
+\n
+\n--help
+\nOutputs a verbose usage listing.
+\n
+\n-a
+\nAll files are printed. By default tree does not print hidden files (those beginning with a dot '.'). In no event does tree print the file system constructs '.' (current directory) and '..' (previous directory).
+\n
+\n-d
+\n
+\nList directories only.
+\n
+\n-f
+\n
+\nPrints the full path prefix for each file.
+\n
+\n-i
+\n
+\nMakes tree not print the indentation lines, useful when used in conjunction with the -f option.
+\n
+\n
+\n-p
+\nPrint the file type and permissions for each file (as per ls -l).
+\n
+\n-s
+\n
+\nPrint the size of each file in bytes along with the name.
+\n
+\n-h
+\n
+\nPrint the size of each file but in a more human readable way, e.g. appending a size letter for kilobytes (K), megabytes (M), gigabytes (G), terrabytes (T), petabytes (P) and exabytes (E).
+\n
+\n-u
+\n
+\nPrint the username, or UID # if no username is available, of the file.
+\n
+\n-g
+\n
+\nPrint the group name, or GID # if no group name is available, of the file.
+\n
+\n-D
+\n
+\nPrint the date of the last modification time for the file listed.
+\n
+\n--inodes
+\nPrints the inode number of the file or directory
+\n--device
+\nPrints the device number to which the file or directory belongs
+\n
+\n-r
+\n
+\nSort the output in reverse alphabetic order.
+\n
+\n-t
+\n
+\nSort the output by last modification time instead of alphabetically.
+\n
+\n--dirsfirst
+\nList directories before files.
+\n-n
+\nTurn colorization off always, over-ridden by the -C option.
+\n
+\n-L level
+\nMax display depth of the directory tree.

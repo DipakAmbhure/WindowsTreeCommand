@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1618497333 source:d:\college\2nd year\iv semister\dsa\final-project\mytree\main.c
+	"tree.h"
+	<stdio.h>
+	<limits.h>
+	<stdbool.h>
+	<stdlib.h>
+
+1618482100 d:\college\2nd year\iv semister\dsa\final-project\mytree\tree.h
+	<dirent.h>
+	<stdbool.h>
+
+1618490565 source:d:\college\2nd year\iv semister\dsa\final-project\mytree\tree.c
+	<stdio.h>
+	<stdlib.h>
+	<dirent.h>
+	<sys/stat.h>
+	<strings.h>
+	<time.h>
+	<limits.h>
+	"tree.h"
+	<windows.h>
+	<stdbool.h>
+
+1618488598 source:d:\college\2nd year\iv semister\dsa\final-project\mytree\pattern.c
+	<stdio.h>
+	<string.h>
+
